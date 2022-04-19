@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{ecea9de0-0d27-4a8c-9890-7092b752194a}">
+		<property name="name">
+			<value>Ingredient Type</value>
+		</property>
+		<relationship name="folder">
+			<destination>{7d31b9f4-17ca-4b70-8315-2aae3c0b2585}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{6974b1bd-7ed0-4c70-8105-1bd7f733990e}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{6974b1bd-7ed0-4c70-8105-1bd7f733990e}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>6</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Gecko</value>
+			<value>Berries</value>
+			<value>Rat</value>
+			<value>Potato</value>
+			<value>Bee</value>
+			<value>Sunflower</value>
+		</property>
+		<property name="isHeld">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
