@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{f81d2896-ca41-437e-b9c4-56df37b743ef}">
+		<property name="name">
+			<value>Room</value>
+		</property>
+		<relationship name="folder">
+			<destination>{7d31b9f4-17ca-4b70-8315-2aae3c0b2585}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{3c976ac4-efac-4ef8-8a74-2f606a2de93f}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{3c976ac4-efac-4ef8-8a74-2f606a2de93f}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.77999997138977051</value>
+		</property>
+	</object>
+</objects>
