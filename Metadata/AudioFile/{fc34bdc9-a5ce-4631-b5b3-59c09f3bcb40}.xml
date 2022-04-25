@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{fc34bdc9-a5ce-4631-b5b3-59c09f3bcb40}">
+		<property name="assetPath">
+			<value>av_ch_ao_Coughs9.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.71999999999999997</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e0c6ba22-0e00-4dda-b939-336c89e94405}</destination>
+		</relationship>
+	</object>
+</objects>
