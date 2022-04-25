@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{9d63e7dd-3161-43a6-a255-6c7f955b2be0}">
+		<property name="name">
+			<value>Direness</value>
+		</property>
+		<relationship name="folder">
+			<destination>{7d31b9f4-17ca-4b70-8315-2aae3c0b2585}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{6d94bf84-1e56-4439-85cc-75ee19f763b0}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{6d94bf84-1e56-4439-85cc-75ee19f763b0}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>5</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
