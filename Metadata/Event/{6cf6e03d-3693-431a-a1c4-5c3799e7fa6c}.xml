@@ -5,7 +5,7 @@
 			<value>SFX_IngredientGrab</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{6154dec4-a0ed-4f5e-8e86-a75a75a791fe}</destination>
@@ -33,6 +33,9 @@
 		</relationship>
 		<relationship name="parameters">
 			<destination>{bd1af7a7-071e-47f4-9a63-6658bc0c3d02}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{151d1e80-ddbd-454c-a7bc-6e3437dfa5f9}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{9cd1ed22-9ce0-4f5f-8fa4-842860f2ed6b}">
@@ -132,6 +135,10 @@
 		<property name="start">
 			<value>5</value>
 		</property>
+		<relationship name="sounds">
+			<destination>{cb2940e6-630f-436f-a04d-c7c87da795d4}</destination>
+			<destination>{295c6f9d-6f45-4cf5-b8cf-86f7a8bd5fb2}</destination>
+		</relationship>
 	</object>
 	<object class="EventSound" id="{6fd1f45c-6e13-41be-94fa-727a17b425d5}">
 		<property name="length">
@@ -162,6 +169,16 @@
 	</object>
 	<object class="MixerBusPanner" id="{a5eb5b76-0ffb-421f-85cf-40381b0e7dae}" />
 	<object class="MixerBusFader" id="{1bf8fae2-92bf-4c7f-a268-567c21c01b77}" />
+	<object class="SingleSound" id="{cb2940e6-630f-436f-a04d-c7c87da795d4}">
+		<relationship name="audioFile">
+			<destination>{3801402d-3a6f-4da8-86ca-e632cbf059ed}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{295c6f9d-6f45-4cf5-b8cf-86f7a8bd5fb2}">
+		<relationship name="audioFile">
+			<destination>{bb5d0b2a-5e82-4233-a8cb-6fef04cb1620}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{db9486b7-168d-4fdb-8b88-e5e4c092695f}">
 		<relationship name="effects">
 			<destination>{896e49e9-e5c4-4de6-93f7-df0c865fa02e}</destination>

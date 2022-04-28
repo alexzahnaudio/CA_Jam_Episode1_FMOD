@@ -5,7 +5,7 @@
 			<value>SFX_IngredientUse</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{6154dec4-a0ed-4f5e-8e86-a75a75a791fe}</destination>

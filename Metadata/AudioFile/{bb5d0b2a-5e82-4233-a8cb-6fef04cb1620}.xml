@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{bb5d0b2a-5e82-4233-a8cb-6fef04cb1620}">
+		<property name="assetPath">
+			<value>as_ing_sunflower-02.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.3232291666666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e0c6ba22-0e00-4dda-b939-336c89e94405}</destination>
+		</relationship>
+	</object>
+</objects>
